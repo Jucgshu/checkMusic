@@ -54,7 +54,7 @@ find $MUSICDIR -type f \( -iname "*.gif" -and ! -name "cover.*" \)
 
 echo ""
 echo "Liste de fichiers non conformes : "
-find $MUSICDIR -mindepth 3 -type f | grep -iEv ".mp3|.mpc|.ogg|.flac|cover.jpg|cover.jpeg|cover.png|cover|cover.gif"
+find $MUSICDIR -mindepth 3 -type f | grep -iEv ".mp3|.mpc|.ogg|.flac|.jpg|.jpeg|.png|cover"
 
 echo ""
 echo "Liste des répertoires sans images "

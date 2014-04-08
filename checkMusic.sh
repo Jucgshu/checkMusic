@@ -1,7 +1,7 @@
 #!/bin/sh
 # Simple script to check music directory
 
-MUSICDIR=/home/.share/audio/Musique/
+MUSICDIR=/home/.share/Audio/Musique/
 
 ###########################
 ### Functions           ###
